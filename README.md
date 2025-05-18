@@ -64,7 +64,7 @@ Pre-verified with standard patterns:
 ## Expected Output
 
 ```plaintext
-┌ Game of Life ──────────────────────────────┐
+┌ Game of Life ───────────────────────────────┐
 │ Controls: Space=Play/Pause  N=Step  C=Clear │
 │ Generation: 42       Live Cells: 117        │
 └─────────────────────────────────────────────┘
