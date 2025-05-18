@@ -43,10 +43,11 @@ Each cell's fate is determined by its 8 neighboring cells:
 ```bash
 python life.py [--width W] [--height H] [--fps F]
 ```
-Command Line Options
---width: Grid width (default: 60)
---height: Grid height (default: 30)
---fps: Frames per second (default: 10)
+
+## Command Line Options
+1. **--width**: Grid width (default: 60)
+2. **--height**: Grid height (default: 30)
+3. **--fps**: Frames per second (default: 10)
 
 ## Example
 ```bash
@@ -61,10 +62,12 @@ Glider: Spaceship pattern (moves diagonally)
 
 ## Expected Output
 
+```plaintext
 ┌ Game of Life ──────────────────────────────┐
 │ Controls: Space=Play/Pause  N=Step  C=Clear │
 │ Generation: 42       Live Cells: 117        │
 └─────────────────────────────────────────────┘
+```
 
 ## Development Requirements
 
