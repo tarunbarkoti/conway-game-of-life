@@ -58,7 +58,7 @@ python life.py --width 40 --height 20 --fps 6
 
 Pre-verified with standard patterns:
 
-• **Blinker**: Oscillator pattern (period 2)
+• **Blinker**: Oscillator pattern (period 2)\
 • **Glider**: Spaceship pattern (moves diagonally)
 
 ## Expected Output
@@ -74,10 +74,9 @@ Pre-verified with standard patterns:
 
 Python 3.x
 Pygame (recommended) or Tkinter
-argparse module (built-in)
+argparse module (built-in)\
 
 
 
 
-**(Author: Tarun Barkoti)**\
-**Course: CCE - IIT Mandi (Minor in CSE - Second Module/Trimester)**
+**(Author: Tarun Barkoti)**
