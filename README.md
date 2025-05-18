@@ -1,6 +1,6 @@
 # Conway's Game of Life Interactive Visualizer  
 **Second Trimester Final Project**  
-*CCE - IIT Mandi (Minor in CSE)*  
+*CCE - IIT Mandi (Minor in Computer Science & Engineering)*  
 
 ## Project Overview
 This Python implementation simulates Conway's Game of Life, a zero-player game that models cellular evolution through simple rules. The visualizer provides an interactive interface to observe pattern evolution with save/load functionality.
@@ -39,39 +39,37 @@ Each cell's fate is determined by its 8 neighboring cells:
 | Exactly 3     | Dead          | Born       |
 
 ## Usage
-
+```bash
 python life.py [--width W] [--height H] [--fps F]
+Command Line Options
+--width: Grid width (default: 60)
 
-## Command Line Options
+--height: Grid height (default: 30)
 
-- `--width`: Grid width (default: 60)
-- `--height`: Grid height (default: 30)
-- `--fps`: Frames per second (default: 10)
+--fps: Frames per second (default: 10)
 
-## Example
-
+Example
+bash
 python life.py --width 40 --height 20 --fps 6
-
-## Testing
-
+Testing
 Pre-verified with standard patterns:
 
-- **Blinker**: Oscillator pattern (period 2)
-- **Glider**: Spaceship pattern (moves diagonally)
+Blinker: Oscillator pattern (period 2)
 
-## Expected Output
+Glider: Spaceship pattern (moves diagonally)
 
-┌ Game of Life ───────────────────────────────┐
+Expected Output
+plaintext
+┌ Game of Life ──────────────────────────────┐
 │ Controls: Space=Play/Pause  N=Step  C=Clear │
 │ Generation: 42       Live Cells: 117        │
 └─────────────────────────────────────────────┘
+Development Requirements
+Python 3.x
 
-## Development Requirements
+Pygame (recommended) or Tkinter
 
-- Python 3.x
-- Pygame (recommended) or Tkinter
-- `argparse` module (built-in)
+argparse module (built-in)
 
-
-**Author**: Tarun Barkoti
-**Course**: CCE - IIT Mandi (Minor in CSE) [Second Trimester]
+Author: Tarun Barkoti
+Course: CCE - IIT Mandi (Minor in CSE - Second Module/Trimester)
